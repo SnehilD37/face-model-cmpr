@@ -1,0 +1,21 @@
+image,type,detected,success,time
+archisman.JPG,Positive,Archisman,True,2.8454
+negative_empty.JPG,Negative,None,True,3.1276
+negative_empty_1.JPG,Negative,None,True,2.9358
+negative_empty_2.JPG,Negative,None,True,2.9759
+negative_empty_3.JPG,Negative,None,True,4.1345
+snehil.jpg,Positive,"Snehil, Soumyartho, Soumyartho, Subhayan, Snehil",True,3.3026
+snehil_1.JPG,Positive,"Snehil, Snehil",True,2.6163
+snehil_2.JPG,Positive,"Soumyartho, Snehil",True,2.9334
+snehil_3.JPG,Positive,"Snehil, Snehil, Archisman",True,5.3075
+snehil_4.JPG,Positive,Snehil,True,6.0919
+snehil_5.jpg,Positive,"Snehil, Subhayan",True,2.4622
+snehil_archisman_soumyartho.JPG,Positive,"Soumyartho, Snehil, Subhayan, Archisman",True,2.6171
+snehil_subhayan.JPG,Positive,"Snehil, Snehil, Subhayan, Soumyartho",True,2.8618
+snehil_subhayan_1.JPG,Positive,"Snehil, Subhayan, Snehil",True,6.1774
+snehil_subhayan_2.JPG,Positive,"Soumyartho, Snehil, Snehil, Snehil, Subhayan",True,6.1793
+snehil_subhayan_3.jpg,Positive,"Snehil, Subhayan, Subhayan, Archisman",True,2.7209
+snehil_subhayan_4.jpg,Positive,"Soumyartho, Soumyartho, Snehil, Snehil, Subhayan",True,2.759
+snehil_subhayan_5.jpg,Positive,"Soumyartho, Snehil, Subhayan",True,2.9653
+snehil_subhayan_6.jpg,Positive,"Subhayan, Soumyartho, Snehil, Soumyartho, Subhayan",True,2.99
+soumyartho.JPG,Positive,Soumyartho,True,2.4734
