@@ -1,21 +1,21 @@
-image,type,detected,success,time
-archisman.JPG,Positive,Archisman,True,2.5277
-negative_empty.JPG,Negative,None,True,2.9777
-negative_empty_1.JPG,Negative,None,True,3.0852
-negative_empty_2.JPG,Negative,None,True,2.8701
-negative_empty_3.JPG,Negative,None,True,4.6871
-snehil.jpg,Positive,"Snehil, Snehil",True,2.588
-snehil_1.JPG,Positive,Snehil,True,2.4107
-snehil_2.JPG,Positive,Snehil,True,2.4409
-snehil_3.JPG,Positive,"Snehil, Snehil",True,2.3684
-snehil_4.JPG,Positive,Snehil,True,2.9705
-snehil_5.jpg,Positive,Snehil,True,2.1912
-snehil_archisman_soumyartho.JPG,Positive,"Soumyartho, Snehil, Archisman",True,2.3774
-snehil_subhayan.JPG,Positive,"Snehil, Snehil, Subhayan, Snehil",True,2.478
-snehil_subhayan_1.JPG,Positive,"Snehil, Subhayan, Snehil",True,2.3979
-snehil_subhayan_2.JPG,Positive,"Soumyartho, Snehil, Snehil, Subhayan",True,2.8138
-snehil_subhayan_3.jpg,Positive,"Snehil, Subhayan",True,2.3291
-snehil_subhayan_4.jpg,Positive,"Snehil, Snehil, Soumyartho, Subhayan",True,2.5808
-snehil_subhayan_5.jpg,Positive,"Snehil, Subhayan",True,2.739
-snehil_subhayan_6.jpg,Positive,"Snehil, Subhayan",True,2.6193
-soumyartho.JPG,Positive,Soumyartho,True,2.4463
+image,expected_people,found_people,avg_confidence,raw_matches,total_faces_kept,time
+archisman.JPG,archisman,Archisman,62.0%,Archisman:63.0%,1,3.3036
+negative_empty.JPG,negative_empty,,,,0,3.0464
+negative_empty_1.JPG,negative_empty,,,,0,2.8043
+negative_empty_2.JPG,negative_empty,,,,0,3.0696
+negative_empty_3.JPG,negative_empty,,,Snehil:24.4%,1,2.6459
+snehil.jpg,snehil,Snehil,87.0%,"Snehil:87.1%, Soumyartho:64.2%, Subhayan:58.2%, Snehil:57.6%, Snehil:55.4%, Soumyartho:54.7%, Subhayan:47.8%, Subhayan:47.8%, Soumyartho:44.8%, Soumyartho:37.6%, Soumyartho:36.8%",11,6.0144
+snehil_1.JPG,snehil,Snehil,87.0%,"Snehil:87.5%, Snehil:51.4%",2,2.4017
+snehil_2.JPG,snehil,Snehil,87.0%,"Snehil:87.3%, Soumyartho:39.1%, Soumyartho:36.1%",3,4.0323
+snehil_3.JPG,snehil,"Snehil, Snehil",76.0%,"Snehil:91.2%, Snehil:61.4%",2,3.7681
+snehil_4.JPG,snehil,Snehil,78.0%,"Snehil:78.5%, Snehil:25.0%",2,2.7145
+snehil_5.jpg,snehil,"Snehil, Snehil",73.5%,"Snehil:87.6%, Snehil:60.9%, Archisman:57.9%, Snehil:56.6%, Soumyartho:29.7%",5,1.6152
+snehil_archisman_soumyartho.JPG,snehil_archisman_soumyartho,"Soumyartho, Archisman, Snehil",86.0%,"Soumyartho:95.7%, Archisman:82.8%, Snehil:81.8%, Archisman:50.1%, Archisman:32.3%",5,2.7939
+snehil_subhayan.JPG,snehil_subhayan,"Subhayan, Snehil, Snehil",79.3%,"Subhayan:88.6%, Snehil:82.3%, Snehil:68.1%, Soumyartho:64.3%, Soumyartho:46.3%, Snehil:44.0%, Snehil:37.8%",7,6.141
+snehil_subhayan_1.JPG,snehil_subhayan,"Subhayan, Snehil",87.0%,"Subhayan:87.1%, Snehil:87.1%, Snehil:56.6%, Soumyartho:54.6%, Soumyartho:51.4%, Soumyartho:51.3%, Snehil:47.6%, Snehil:32.0%",8,5.4538
+snehil_subhayan_2.JPG,snehil_subhayan,"Subhayan, Snehil, Snehil",78.7%,"Subhayan:87.5%, Snehil:86.5%, Snehil:63.1%, Soumyartho:61.6%, Soumyartho:53.8%, Soumyartho:47.9%, Snehil:47.1%, Soumyartho:41.9%, Archisman:36.1%",9,7.0256
+snehil_subhayan_3.jpg,snehil_subhayan,"Subhayan, Snehil, Snehil",70.3%,"Subhayan:84.6%, Snehil:65.2%, Snehil:62.2%, Snehil:49.6%, Snehil:45.5%, Soumyartho:40.2%, Snehil:36.7%",7,2.0825
+snehil_subhayan_4.jpg,snehil_subhayan,"Snehil, Snehil, Subhayan",77.0%,"Snehil:90.9%, Snehil:77.3%, Subhayan:64.9%, Soumyartho:57.0%, Soumyartho:52.0%, Soumyartho:51.0%, Soumyartho:49.7%, Snehil:48.1%",8,5.9767
+snehil_subhayan_5.jpg,snehil_subhayan,Snehil,85.0%,"Snehil:85.3%, Subhayan:58.3%, Subhayan:54.9%, Snehil:54.3%, Archisman:35.3%, Soumyartho:27.2%, Subhayan:22.7%",7,1.8476
+snehil_subhayan_6.jpg,snehil_subhayan,"Snehil, Subhayan",86.0%,"Snehil:90.5%, Subhayan:82.8%, Snehil:53.5%, Soumyartho:53.1%, Subhayan:52.8%, Soumyartho:49.3%, Archisman:47.2%",7,4.628
+soumyartho.JPG,soumyartho,Soumyartho,90.0%,Soumyartho:90.9%,1,3.2315
